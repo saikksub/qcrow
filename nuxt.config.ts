@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxthq/ui'
-  ]
+    '@nuxthq/ui',
+    '@vite-pwa/nuxt'
+  ],
+  pwa: {
+    /* PWA options */
+  }
 })
