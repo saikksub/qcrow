@@ -11,8 +11,12 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxthq/ui": "^2.5.0",
+    "@sidebase/nuxt-auth": "^0.6.0-beta.3",
     "@types/node": "^18",
-    "@vite-pwa/nuxt": "^0.1.0",
     "nuxt": "^3.6.2"
+  },
+  "dependencies": {
+    "next-auth": "4.21.1",
+    "vee-validate": "^4.10.5"
   }
 }

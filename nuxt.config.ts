@@ -3,9 +3,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxthq/ui',
-    '@vite-pwa/nuxt'
+    '@sidebase/nuxt-auth'
   ],
-  pwa: {
-    /* PWA options */
+  auth: {
+    globalAppMiddleware: true
+  },
+  runtimeConfig: {
+    GitHubClientId: '',
+    GitHubClientSecret: ''
   }
 })
